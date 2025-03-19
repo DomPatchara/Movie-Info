@@ -11,8 +11,8 @@ create Dashboard Movie-infomation , Key Learning include use Dinamic Routes
 - Create  Dinamic Route Folder : [id]
 - /app
     /movies
-      /[id]  <-- Dynamic route folder
-        page.tsx  <-- Renders each dynamic page
+      /**[id]**  <-- Dynamic route folder
+        /page.tsx  <-- Renders each dynamic page
 - When create [id].tsx : Next.JS provides Route Parameters inside **params** ( object )
 
 ## 🛠️ Tech Stack
